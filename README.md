@@ -1,5 +1,7 @@
 # devhub-ansible-mgmtvm
 
+> **Archived**: This repository is archived and no longer maintained. This role was originally created as a reusable abstraction, but the functionality is small and specific to the platform that consumes it. Maintaining it as a separate role therefore adds unnecessary development, dependency, release, and maintenance overhead without providing meaningful reuse. The functionality has been moved closer to its actual usage. Going forward, existing reusable functionality should be preferred over creating and maintaining custom abstractions unless there is a clear need for reuse across independent consumers. Specifically in this case, management vms are specific to the platform/team and are usually only created from a single orchestrator so it does not add value to create a reusable role for management vms since it is a simple concept and usually has custom setups per platform/team, etc.
+
 > For shared package design and engineering practices, see
 [DevHub's Engineering & Coding Reference](https://github.com/CollinPoetoehena/DevHub/blob/main/reference/engineering/README.md). This README covers this package's setup, usage, design decisions, and exceptions.
 
